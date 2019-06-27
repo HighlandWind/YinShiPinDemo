@@ -1,0 +1,16 @@
+PODS:
+  - Mp3Encoder (0.0.1)
+
+DEPENDENCIES:
+  - Mp3Encoder (from `./`)
+
+EXTERNAL SOURCES:
+  Mp3Encoder:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Mp3Encoder: 4d999cd8482c9b29a1c08c6f78d17be753504b29
+
+PODFILE CHECKSUM: 70583049be686b4c95a20dd2bd43331a581e9510
+
+COCOAPODS: 1.6.1

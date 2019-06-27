@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152E1DEAD07A49615BC4EBA55C6080EF /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD7FE75DB4536E13B189A9071DCC7EA /* CommonUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		297B60098E9233C99308F40CED454F01 /* Pods-YinShiPinDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D47E166749D1FC96948F72881BB0BDD /* Pods-YinShiPinDemo-dummy.m */; };
+		685FCC3BCE0DE298257D9DDBED07DC1F /* Mp3Encoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A03DE005ED64AEC6D375AC96572212 /* Mp3Encoder-dummy.m */; };
+		C281C6F9F3CC5A985BAFF225513CFEDE /* CommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E1668719B890305CB21B0B7C4DBB270D /* CommonUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40FD95DE05AC87A40B536030CF7718BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B365A212A472298A08B54BADDD8D8E7D;
+			remoteInfo = Mp3Encoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13847A34F41D0D5E4ABAF908B2B63F77 /* Mp3Encoder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mp3Encoder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FCA990B00208BA7E424D891D7C277DB /* Mp3Encoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mp3Encoder-prefix.pch"; sourceTree = "<group>"; };
+		2BD8310B354A43EEB1BA525155B21428 /* libPods-YinShiPinDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YinShiPinDemo.a"; path = "libPods-YinShiPinDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330F17C8B726CFF194CB6AD19EAA3173 /* Pods-YinShiPinDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YinShiPinDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		33A03DE005ED64AEC6D375AC96572212 /* Mp3Encoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mp3Encoder-dummy.m"; sourceTree = "<group>"; };
+		3BE46ADFC5DE9679C7195B6A5AAEF95A /* Pods-YinShiPinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YinShiPinDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6446D91046C8087E8C931AEF1CE53E67 /* Pods-YinShiPinDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YinShiPinDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D47E166749D1FC96948F72881BB0BDD /* Pods-YinShiPinDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YinShiPinDemo-dummy.m"; sourceTree = "<group>"; };
+		90B2933CFB647DADFA591FCA3FFBE34B /* Pods-YinShiPinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YinShiPinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBC92E0FF74C0E95CE5DD75EC38EB60A /* Mp3Encoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mp3Encoder.xcconfig; sourceTree = "<group>"; };
+		E0F60055EB7CBCFBD1992DEBF691A19A /* libMp3Encoder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMp3Encoder.a; path = libMp3Encoder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1668719B890305CB21B0B7C4DBB270D /* CommonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonUtil.h; path = Mp3Encoder/utils/CommonUtil.h; sourceTree = "<group>"; };
+		ECD7FE75DB4536E13B189A9071DCC7EA /* CommonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CommonUtil.m; path = Mp3Encoder/utils/CommonUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11E4E2C596FC6EA7DA37C079648E8A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21B2B7215A19089142E343F8D4E6CDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B0B7F16ADADFE8366F99EBC0B7FB1E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0F60055EB7CBCFBD1992DEBF691A19A /* libMp3Encoder.a */,
+				2BD8310B354A43EEB1BA525155B21428 /* libPods-YinShiPinDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10877782652D255921A0F7C6FE9D615B /* Pods-YinShiPinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6446D91046C8087E8C931AEF1CE53E67 /* Pods-YinShiPinDemo-acknowledgements.markdown */,
+				330F17C8B726CFF194CB6AD19EAA3173 /* Pods-YinShiPinDemo-acknowledgements.plist */,
+				6D47E166749D1FC96948F72881BB0BDD /* Pods-YinShiPinDemo-dummy.m */,
+				3BE46ADFC5DE9679C7195B6A5AAEF95A /* Pods-YinShiPinDemo.debug.xcconfig */,
+				90B2933CFB647DADFA591FCA3FFBE34B /* Pods-YinShiPinDemo.release.xcconfig */,
+			);
+			name = "Pods-YinShiPinDemo";
+			path = "Target Support Files/Pods-YinShiPinDemo";
+			sourceTree = "<group>";
+		};
+		1AF64D46A798EEF13715647B097FC566 /* Mp3Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				E1668719B890305CB21B0B7C4DBB270D /* CommonUtil.h */,
+				ECD7FE75DB4536E13B189A9071DCC7EA /* CommonUtil.m */,
+				922D45EF66F65E594073E4348A33732C /* Pod */,
+				BA8B95A5DC5A05DC6D3D2DD643BA1942 /* Support Files */,
+			);
+			name = Mp3Encoder;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3927EF5071C68C4CB23C80D2DC2E327B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10877782652D255921A0F7C6FE9D615B /* Pods-YinShiPinDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		554D8B86E9C2C78C7F96B3D5586F3F17 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF64D46A798EEF13715647B097FC566 /* Mp3Encoder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		922D45EF66F65E594073E4348A33732C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				13847A34F41D0D5E4ABAF908B2B63F77 /* Mp3Encoder.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BA8B95A5DC5A05DC6D3D2DD643BA1942 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC92E0FF74C0E95CE5DD75EC38EB60A /* Mp3Encoder.xcconfig */,
+				33A03DE005ED64AEC6D375AC96572212 /* Mp3Encoder-dummy.m */,
+				1FCA990B00208BA7E424D891D7C277DB /* Mp3Encoder-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/Mp3Encoder";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				554D8B86E9C2C78C7F96B3D5586F3F17 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0B0B7F16ADADFE8366F99EBC0B7FB1E0 /* Products */,
+				3927EF5071C68C4CB23C80D2DC2E327B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90AE8B2D91E6EA091D6744984ABA0105 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9008E8AFE4A8486AA54A4985256AA15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C281C6F9F3CC5A985BAFF225513CFEDE /* CommonUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		837C08FCB46E728F6D8ECB4B3063B2B7 /* Pods-YinShiPinDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91BEDA9EB197202618564D4B751C7733 /* Build configuration list for PBXNativeTarget "Pods-YinShiPinDemo" */;
+			buildPhases = (
+				90AE8B2D91E6EA091D6744984ABA0105 /* Headers */,
+				28902A536FCA07B95E94F9C25659EFA6 /* Sources */,
+				21B2B7215A19089142E343F8D4E6CDA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56A9FFD2F147CA9B7D5D48D10BC7EA3B /* PBXTargetDependency */,
+			);
+			name = "Pods-YinShiPinDemo";
+			productName = "Pods-YinShiPinDemo";
+			productReference = 2BD8310B354A43EEB1BA525155B21428 /* libPods-YinShiPinDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B365A212A472298A08B54BADDD8D8E7D /* Mp3Encoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F76E7EBD34A50064FED5F0B271EC75F /* Build configuration list for PBXNativeTarget "Mp3Encoder" */;
+			buildPhases = (
+				D9008E8AFE4A8486AA54A4985256AA15 /* Headers */,
+				4B6D4682629FCE671BA1185302CC4604 /* Sources */,
+				11E4E2C596FC6EA7DA37C079648E8A64 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mp3Encoder;
+			productName = Mp3Encoder;
+			productReference = E0F60055EB7CBCFBD1992DEBF691A19A /* libMp3Encoder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0B0B7F16ADADFE8366F99EBC0B7FB1E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B365A212A472298A08B54BADDD8D8E7D /* Mp3Encoder */,
+				837C08FCB46E728F6D8ECB4B3063B2B7 /* Pods-YinShiPinDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28902A536FCA07B95E94F9C25659EFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297B60098E9233C99308F40CED454F01 /* Pods-YinShiPinDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6D4682629FCE671BA1185302CC4604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152E1DEAD07A49615BC4EBA55C6080EF /* CommonUtil.m in Sources */,
+				685FCC3BCE0DE298257D9DDBED07DC1F /* Mp3Encoder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56A9FFD2F147CA9B7D5D48D10BC7EA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mp3Encoder;
+			target = B365A212A472298A08B54BADDD8D8E7D /* Mp3Encoder */;
+			targetProxy = 40FD95DE05AC87A40B536030CF7718BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		11A0888D00433DAC87E73E7267943111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE46ADFC5DE9679C7195B6A5AAEF95A /* Pods-YinShiPinDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4874DC209973E6F60A3EBBCEFE72B391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC92E0FF74C0E95CE5DD75EC38EB60A /* Mp3Encoder.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Mp3Encoder/Mp3Encoder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Mp3Encoder;
+				PRODUCT_NAME = Mp3Encoder;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC66532F250BE23C1AA8479E5F78BA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90B2933CFB647DADFA591FCA3FFBE34B /* Pods-YinShiPinDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0A9E89BB1CAE6C7C76B2E1ED79C26AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC92E0FF74C0E95CE5DD75EC38EB60A /* Mp3Encoder.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Mp3Encoder/Mp3Encoder-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Mp3Encoder;
+				PRODUCT_NAME = Mp3Encoder;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F76E7EBD34A50064FED5F0B271EC75F /* Build configuration list for PBXNativeTarget "Mp3Encoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A9E89BB1CAE6C7C76B2E1ED79C26AE /* Debug */,
+				4874DC209973E6F60A3EBBCEFE72B391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91BEDA9EB197202618564D4B751C7733 /* Build configuration list for PBXNativeTarget "Pods-YinShiPinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A0888D00433DAC87E73E7267943111 /* Debug */,
+				AC66532F250BE23C1AA8479E5F78BA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

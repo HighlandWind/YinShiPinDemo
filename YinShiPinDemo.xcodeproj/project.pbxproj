@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D86B0129551F3478B5F5EB83 /* libPods-YinShiPinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5EDA3B1E69AFB182116070 /* libPods-YinShiPinDemo.a */; };
+		EF6395812259F7B500F9F806 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6395802259F7A700F9F806 /* libmp3lame.a */; };
+		EF6395822259F7CD00F9F806 /* vocal.pcm in Resources */ = {isa = PBXBuildFile; fileRef = EF63956E2259F52A00F9F806 /* vocal.pcm */; };
+		EF7522282257B11C004B0B18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7522272257B11C004B0B18 /* AppDelegate.m */; };
+		EF7522302257B11C004B0B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF75222F2257B11C004B0B18 /* Assets.xcassets */; };
+		EF7522332257B11C004B0B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF7522312257B11C004B0B18 /* LaunchScreen.storyboard */; };
+		EF7522362257B11C004B0B18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7522352257B11C004B0B18 /* main.m */; };
+		EF75223E2257B170004B0B18 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF75223D2257B170004B0B18 /* ViewController.mm */; };
+		EF7522412258846C004B0B18 /* Mp3Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF75223F2258846C004B0B18 /* Mp3Encoder.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D5EDA3B1E69AFB182116070 /* libPods-YinShiPinDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YinShiPinDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		763E3A589D475F4EDA2BA147 /* Pods-YinShiPinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YinShiPinDemo.release.xcconfig"; path = "Target Support Files/Pods-YinShiPinDemo/Pods-YinShiPinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		98252B5BBCD4388FA8E91BFA /* Pods-YinShiPinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YinShiPinDemo.debug.xcconfig"; path = "Target Support Files/Pods-YinShiPinDemo/Pods-YinShiPinDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF23291E225C9FB20087EF33 /* Mp3Encoder.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mp3Encoder.podspec; sourceTree = SOURCE_ROOT; };
+		EF63956E2259F52A00F9F806 /* vocal.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = vocal.pcm; sourceTree = "<group>"; };
+		EF6395752259F56600F9F806 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		EF6395782259F56600F9F806 /* lame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		EF63957E2259F7A700F9F806 /* lame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		EF6395802259F7A700F9F806 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		EF7522232257B11C004B0B18 /* YinShiPinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YinShiPinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7522262257B11C004B0B18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF7522272257B11C004B0B18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF75222F2257B11C004B0B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF7522322257B11C004B0B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF7522342257B11C004B0B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF7522352257B11C004B0B18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF75223C2257B170004B0B18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF75223D2257B170004B0B18 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		EF75223F2258846C004B0B18 /* Mp3Encoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mp3Encoder.cpp; sourceTree = "<group>"; };
+		EF8454A222588D35008BC9AB /* Mp3Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp3Encoder.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF7522202257B11C004B0B18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6395812259F7B500F9F806 /* libmp3lame.a in Frameworks */,
+				D86B0129551F3478B5F5EB83 /* libPods-YinShiPinDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6191A988CF0ED36C5102838C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF63957A2259F7A700F9F806 /* thirdlib */,
+				3D5EDA3B1E69AFB182116070 /* libPods-YinShiPinDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99F7DDAAFD71F703C974A15C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98252B5BBCD4388FA8E91BFA /* Pods-YinShiPinDemo.debug.xcconfig */,
+				763E3A589D475F4EDA2BA147 /* Pods-YinShiPinDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF63956D2259F52A00F9F806 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				EF63956E2259F52A00F9F806 /* vocal.pcm */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		EF6395722259F54400F9F806 /* thirdlib */ = {
+			isa = PBXGroup;
+			children = (
+				EF6395732259F55600F9F806 /* lame */,
+			);
+			path = thirdlib;
+			sourceTree = "<group>";
+		};
+		EF6395732259F55600F9F806 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				EF6395762259F56600F9F806 /* include */,
+				EF6395742259F56600F9F806 /* lib */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		EF6395742259F56600F9F806 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EF6395752259F56600F9F806 /* libmp3lame.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EF6395762259F56600F9F806 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EF6395772259F56600F9F806 /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EF6395772259F56600F9F806 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				EF6395782259F56600F9F806 /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		EF63957A2259F7A700F9F806 /* thirdlib */ = {
+			isa = PBXGroup;
+			children = (
+				EF63957B2259F7A700F9F806 /* lame */,
+			);
+			name = thirdlib;
+			path = YinShiPinDemo/thirdlib;
+			sourceTree = "<group>";
+		};
+		EF63957B2259F7A700F9F806 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				EF63957C2259F7A700F9F806 /* include */,
+				EF63957F2259F7A700F9F806 /* lib */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		EF63957C2259F7A700F9F806 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EF63957D2259F7A700F9F806 /* lame */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EF63957D2259F7A700F9F806 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				EF63957E2259F7A700F9F806 /* lame.h */,
+			);
+			path = lame;
+			sourceTree = "<group>";
+		};
+		EF63957F2259F7A700F9F806 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				EF6395802259F7A700F9F806 /* libmp3lame.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		EF75221A2257B11C004B0B18 = {
+			isa = PBXGroup;
+			children = (
+				EF7522252257B11C004B0B18 /* YinShiPinDemo */,
+				EF7522242257B11C004B0B18 /* Products */,
+				99F7DDAAFD71F703C974A15C /* Pods */,
+				6191A988CF0ED36C5102838C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF7522242257B11C004B0B18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF7522232257B11C004B0B18 /* YinShiPinDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF7522252257B11C004B0B18 /* YinShiPinDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF6395722259F54400F9F806 /* thirdlib */,
+				EF63956D2259F52A00F9F806 /* resource */,
+				EF7522262257B11C004B0B18 /* AppDelegate.h */,
+				EF7522272257B11C004B0B18 /* AppDelegate.m */,
+				EF75222F2257B11C004B0B18 /* Assets.xcassets */,
+				EF7522312257B11C004B0B18 /* LaunchScreen.storyboard */,
+				EF7522342257B11C004B0B18 /* Info.plist */,
+				EF7522352257B11C004B0B18 /* main.m */,
+				EF75223C2257B170004B0B18 /* ViewController.h */,
+				EF75223D2257B170004B0B18 /* ViewController.mm */,
+				EF75223F2258846C004B0B18 /* Mp3Encoder.cpp */,
+				EF8454A222588D35008BC9AB /* Mp3Encoder.h */,
+				EF23291E225C9FB20087EF33 /* Mp3Encoder.podspec */,
+			);
+			path = YinShiPinDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF7522222257B11C004B0B18 /* YinShiPinDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7522392257B11C004B0B18 /* Build configuration list for PBXNativeTarget "YinShiPinDemo" */;
+			buildPhases = (
+				2D3C2F58731BA926B9601DFE /* [CP] Check Pods Manifest.lock */,
+				EF75221F2257B11C004B0B18 /* Sources */,
+				EF7522202257B11C004B0B18 /* Frameworks */,
+				EF7522212257B11C004B0B18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YinShiPinDemo;
+			productName = YinShiPinDemo;
+			productReference = EF7522232257B11C004B0B18 /* YinShiPinDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF75221B2257B11C004B0B18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LiuGJ;
+				TargetAttributes = {
+					EF7522222257B11C004B0B18 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF75221E2257B11C004B0B18 /* Build configuration list for PBXProject "YinShiPinDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF75221A2257B11C004B0B18;
+			productRefGroup = EF7522242257B11C004B0B18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF7522222257B11C004B0B18 /* YinShiPinDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF7522212257B11C004B0B18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6395822259F7CD00F9F806 /* vocal.pcm in Resources */,
+				EF7522332257B11C004B0B18 /* LaunchScreen.storyboard in Resources */,
+				EF7522302257B11C004B0B18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D3C2F58731BA926B9601DFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YinShiPinDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF75221F2257B11C004B0B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF75223E2257B170004B0B18 /* ViewController.mm in Sources */,
+				EF7522362257B11C004B0B18 /* main.m in Sources */,
+				EF7522282257B11C004B0B18 /* AppDelegate.m in Sources */,
+				EF7522412258846C004B0B18 /* Mp3Encoder.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF7522312257B11C004B0B18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF7522322257B11C004B0B18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7522372257B11C004B0B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF7522382257B11C004B0B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF75223A2257B11C004B0B18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98252B5BBCD4388FA8E91BFA /* Pods-YinShiPinDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS333XYTFV;
+				INFOPLIST_FILE = YinShiPinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YinShiPinDemo/thirdlib/lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgj.YinShiPinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF75223B2257B11C004B0B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763E3A589D475F4EDA2BA147 /* Pods-YinShiPinDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VS333XYTFV;
+				INFOPLIST_FILE = YinShiPinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YinShiPinDemo/thirdlib/lame/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lgj.YinShiPinDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF75221E2257B11C004B0B18 /* Build configuration list for PBXProject "YinShiPinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7522372257B11C004B0B18 /* Debug */,
+				EF7522382257B11C004B0B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7522392257B11C004B0B18 /* Build configuration list for PBXNativeTarget "YinShiPinDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF75223A2257B11C004B0B18 /* Debug */,
+				EF75223B2257B11C004B0B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF75221B2257B11C004B0B18 /* Project object */;
+}
